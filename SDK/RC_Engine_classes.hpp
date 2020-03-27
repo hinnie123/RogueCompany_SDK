@@ -2951,7 +2951,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindClass("Class Engine.SkeletalMeshComponent");
+		static auto ptr = UObject::FindClass("Class Engine.Skeletal:Component");
 		return ptr;
 	}
 
@@ -12116,7 +12116,7 @@ public:
 
 	TArray<class AActor*> GetActors()
 	{
-		return *(TArray<class AActor*>*)((uintptr_t)this + 0xA0);
+		return *(TArray<class AActor*>*)((uintptr_t)this + 0x98);
 	}
 
 	static UClass* StaticClass()
