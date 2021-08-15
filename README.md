@@ -1,3 +1,6 @@
+# Edit
+For always up-to-date offsets, take a look at https://rc.dumps.host
+
 # RogueCompany_SDK
 SDK for the game Rogue Company
 
